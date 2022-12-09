@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 /* General Settings */
 body {
   margin: 0;
@@ -23,6 +25,11 @@ body {
   width: 90%;
 }
 
+.name, .tagline, .sectionHeading {
+    font-family: 'Akaya Telivigala';
+    font-size: 30px;
+}
+
 .profile-image {
     border-radius: 180px;
     width: 80%;
@@ -46,6 +53,15 @@ body {
 }
 
 /* Skills section */
+#skills {
+    padding: auto;
+    text-align: center;
+}
+
+.list-group {
+    text-align: center;
+}
+
 .fa-html5 {
     color: lightgrey;
 }
