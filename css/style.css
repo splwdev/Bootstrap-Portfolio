@@ -1,20 +1,24 @@
 /* General Settings */
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /* Header Settings */
 .header-title {
-    font-size: 30px;
-    margin-left: 10%;
+  font-size: 30px;
+  margin-left: 10%;
 }
 
 .nav-link {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 /* Banner Image */
 .banner-image {
-    max-height: 200px;
+  max-height: 200px;
+}
+
+.about-me {
+  width: 90%;
 }
