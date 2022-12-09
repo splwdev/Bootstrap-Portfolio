@@ -14,7 +14,7 @@ body {
   font-size: 20px;
 }
 
-/* Banner Image */
+/* About Me Section */
 .banner-image {
   max-height: 200px;
 }
@@ -22,3 +22,80 @@ body {
 .about-me {
   width: 90%;
 }
+
+.profile-image {
+    border-radius: 180px;
+    width: 80%;
+}
+
+/* Projects section */
+#work {
+    padding: auto;
+}
+
+.cardContainer {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+/* Skills section */
+.fa-html5 {
+    color: lightgrey;
+}
+
+.fa-html5:hover {
+    color: orange;
+}
+
+.fa-css3-alt {
+    color: lightgrey;
+}
+
+.fa-css3-alt:hover {
+    color: blue;
+}
+
+.fa-js-square {
+    color: lightgrey;
+}
+
+.fa-js-square:hover {
+    color: #EFC825;
+}
+
+.fa-react {
+    color: lightgrey;
+}
+
+.fa-react:hover {
+    color: #61DAFB;
+}
+
+.fa-node-js {
+    color: lightgrey;
+}
+
+.fa-node-js:hover {
+    color: #7FBD01;
+}
+
+.fa-npm {
+    color: lightgrey;
+}
+
+.fa-npm:hover {
+    color: #E32E37;
+}
+
+/* Contact Me section */
+
+
+
+/* Footer */
