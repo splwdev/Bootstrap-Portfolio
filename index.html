@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shane Lynch // Bootstrap Portfolio</title>
+    <script src="https://kit.fontawesome.com/79df7ed02a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar-expand-lg navbar navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <strong class="header-title">Shane Lynch - Portfolio</strong>
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main-wrapper">
+      <!-- Bio section -->
+      <!-- Setting normal padding of 3-->
+      <section class="p-3 p-lg-5 theme-bg-light jumbotron jumbotron-fluid">
+        <div class="container" id="about-me">
+          <div class="d-flex justify-content-between row">
+            <div class="col">
+              <h1 class="name font-weight-bold mb-1">Shane Lynch</h1>
+              <div class="tagline mb-3">Principal Technical Architect - BT</div>
+              <div class="bio mb-4">
+                <p>
+                  I'm a full-time single father of 3 awesome kids and on the
+                  side I work at BT as the Principal Technical Architect for the
+                  M365 Modern Workplace and Business Applications technology
+                  towers. During what little downtime I do get, other than
+                  spending time with my kids you can often find me out on the
+                  waterways paddling around on my kayak or kicking and punching
+                  some pads and bags in the gym.
+                </p>
+                <p>
+                  I'm now going on a learning pathway learning the baseline
+                  skills to become a frontend web developer thanks to the
+                  <a href="https://skillsforlife.edx.org/"
+                    >edX Skils for Life program</a
+                  >. Still very much in the early stages of my career, but you
+                  can check out my portfolio <a href="#work">here</a>. As I'm
+                  still on my learning journey I'm very keen to get more
+                  experience, so if you do see an opportunity where I may be
+                  able to help you out on a project or two, feel free to drop me
+                  a line!
+                </p>
+              </div>
+              <!--//bio--> 
+            </div>
+            <!--//col-->
+            <div class="d-flex align-items-center col-md-3 col-lg-3">
+              <img
+                class="profile-image img-fluid mb-3 mb-lg-0 img-thumbnail"
+                src="./images/splwdev.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Work / Project Section-->
+      <section class="container mt-5" id="work">
+        <h2 class="sectionHeading">My Projects</h2>
+        <div class="row first-row">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card h-100 proj-card">
+              <img src="images/horiseon.jpg" class="card-img-top" alt="horiseon web app" />
+              <div class="card-body">
+                <h5 class="card-title">Horiseon Web Application</h5>
+                <p class="card-text">
+                  The first project I completed on the course, refactoring the HTML".
+                </p>
+                <a href="https://splwdev.github.io/horiseon-webapp/" class="btn btn-primary">Published Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 1 -->
+
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card h-100 proj-card">
+              <img src="images/qrcomponent.jpg" class="card-img-top" alt="QR Component"/>
+              <div class="card-body">
+                <h5 class="card-title">QR Code Component</h5>
+                <p class="card-text">
+                  A challenge I complete from the Frontend Mentor site
+                </p>
+                <a href="https://splwdev.github.io/QR-Code-Component/" class="btn btn-primary">Published Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 2 -->
+
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card h-100 proj-card">
+              <img src="images/nft-card.jpg" class="card-img-top" alt="NFT Component Card" />
+              <div class="card-body">
+                <h5 class="card-title">NFT Component Card</h5>
+                <p class="card-text">
+                  A challenge I complete from the Frontend Mentor site
+                </p>
+                <a href="https://splwdev.github.io/nft-preview-card/" class="btn btn-primary">Published Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+        </div>
+        <div class="row second-row d-flex">
+          <!-- Card 4 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card h-100 proj-card">
+              <img src="images/pricingpanel.png" class="card-img-top" alt="Website Pricing Card" />
+              <div class="card-body">
+                <h5 class="card-title">Pricing Panel</h5>
+                <p class="card-text">
+                  A challenge I completed from the Udemy Web Development Bootcamp
+                </p>
+                <a href="https://splwdev.github.io/pricing-panel/" class="btn btn-primary">Published Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 4 -->
+
+          <!-- Card 5 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card h-100 proj-card">
+              <img src="images/portfolio.jpg" class="card-img-top" alt="my portfolio" />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text">
+                  The previous portfolio I created utilising the HTML and CSS skills I had learnt so far
+                </p>
+                <a href="https://splwdev.github.io/personal-portfolio/" class="btn btn-primary">Published Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 5 -->
+        </div>
+      </section>
+      <!-- Skills / About Me / Contact Section -->
+      <section class="mt-5 mb-5" id="skills">
+        <div class="container">
+        <div class="row">
+            <div class="skills col-12" >
+                <h2 class="sectionHeading">Skills</h2>
+                <div class="subheading mb-3"><strong>Programming Languages &amp; Frameworks</strong></div>
+                <ul class="list-inline list-group list-group-horizontal dev-icons d-flex">
+                    <li class="list-group-item"><strong>HTML5</strong><br>
+                        <i class="fab fa-html5 fa-4x"></i>
+                    </li>
+                    <li class="list-group-item"><strong>CSS3</strong><br>
+                        <i class="fab fa-css3-alt fa-4x"></i>
+                    </li>
+                    <li class="list-group-item"><strong>JavaScript</strong><br>
+                        <i class="fab fa-js-square fa-4x"></i>
+                    </li>
+                    <li class="list-group-item"><strong>React</strong><br>
+                        <i class="fab fa-react fa-4x"></i>
+                    </li>
+                    <li class="list-group-item"><strong>Node JS</strong><br>
+                        <i class="fab fa-node-js fa-4x"></i>
+                    </li>
+                    <li class="list-group-item"><strong>NPM</strong><br>
+                        <i class="fab fa-npm fa-4x"></i>
+                    </li>
+                </ul>
+            </div>
+        </div></div>
+      </section>
+      <section class="contact-section mt-5 mb-5" id="contact-me">
+        <div class="container">
+            <h2 class="sectionHeading mb-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100 contact-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"><a href="https://goo.gl/maps/fv2cdkhgctVrCS8H8" target="_blank"> One Braham St, Whitechapel, London</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100 contact-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"><a href="mailto:shane_lynch@hotmail.com">shane_lynch@hotmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100 contact-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">+44 20 7356 5000 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <footer class="bg-primary p-3 d-flex">
+        <div class="container">
+          <div class="social-icons">
+            <a class="social-icon" href="https://www.linkedin.com/in/shane-lynch-b28bb15"><i class="fab fa-linkedin-in fa-2x p-2"></i></a>
+            <a class="social-icon" href="https://github.com/splwdev"><i class="fab fa-github fa-2x p-2"></i></a>
+            <a class="social-icon" href="https://twitter.com/splwdev"><i class="fab fa-twitter fa-2x p-2"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-facebook-f fa-2x p-2"></i></a>
+          </div>
+          <p>&copy; Shane Lynch 2022. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+    <!-- jquery 3 cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- popper js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap 4 cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
