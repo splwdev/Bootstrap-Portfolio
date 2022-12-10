@@ -14,6 +14,7 @@ body {
 .nav-link {
   color: white;
   font-size: 20px;
+  font-weight: 400;
 }
 
 /* About Me Section */
@@ -148,5 +149,5 @@ footer {
 }
 
 .social-icon:hover {
-    color: #EFC825;
+    color: #FFFF0D;
 }
