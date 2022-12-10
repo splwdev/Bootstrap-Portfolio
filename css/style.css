@@ -52,14 +52,29 @@ body {
              -20px -20px 60px #ffffff;
 }
 
+.proj-card:hover {
+    box-shadow:  20px 20px 60px blue,
+             -20px -20px 60px lightblue;
+}
+
+.second-row {
+    justify-content: center;
+}
+
 /* Skills section */
 #skills {
-    padding: auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
     text-align: center;
+    background-color: #E9ECEF;
 }
 
 .list-group {
-    text-align: center;
+    justify-content: center;
+}
+
+.list-group-item {
+    border: none;
 }
 
 .fa-html5 {
@@ -111,7 +126,15 @@ body {
 }
 
 /* Contact Me section */
-
-
+.contact-card:hover {
+    box-shadow:  20px 20px 60px blue,
+             -20px -20px 60px lightblue;
+}
 
 /* Footer */
+footer {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
