@@ -27,7 +27,7 @@ body {
 
 .name, .tagline, .sectionHeading {
     font-family: 'Akaya Telivigala';
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .profile-image {
@@ -67,6 +67,10 @@ body {
     padding-bottom: 7em;
     text-align: center;
     background-color: #E9ECEF;
+}
+
+.dev-icons {
+    flex-wrap: wrap;
 }
 
 .list-group {
@@ -137,4 +141,12 @@ footer {
     align-items: center;
     color: white;
     text-align: center;
+}
+
+.social-icon {
+    color: white;
+}
+
+.social-icon:hover {
+    color: #EFC825;
 }
