@@ -14,7 +14,12 @@ body {
 .nav-link {
   color: white;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600 !important;
+}
+
+.nav-link:hover {
+    color: #FFFF0D !important;
+    border-bottom: 4px solid #FFFF0D;
 }
 
 /* About Me Section */
@@ -47,14 +52,21 @@ body {
 
 .card {
     margin: 0 auto;
-    border-radius: 10px;
-    background: #e0e0e0;
+    border-radius: 20px;
     box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
 }
 
+.card-body {
+    color: white;
+}
+
+.btn-light {
+    box-shadow: 2px 2px #bebebe;
+}
+
 .proj-card:hover {
-    box-shadow:  20px 20px 60px blue,
+    box-shadow:  20px 20px 60px rgba(0, 0, 253, 0.5),
              -20px -20px 60px lightblue;
 }
 
@@ -132,8 +144,8 @@ body {
 
 /* Contact Me section */
 .contact-card:hover {
-    box-shadow:  20px 20px 60px blue,
-             -20px -20px 60px lightblue;
+    box-shadow:  20px 20px 30px blue,
+             -20px -20px 30px lightblue;
 }
 
 /* Footer */
