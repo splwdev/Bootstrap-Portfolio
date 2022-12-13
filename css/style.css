@@ -18,8 +18,8 @@ body {
 }
 
 .nav-link:hover {
-    color: #FFFF0D !important;
-    border-bottom: 4px solid #FFFF0D;
+    color: #FFC107 !important;
+    border-bottom: 4px solid #FFC107;
 }
 
 /* About Me Section */
@@ -52,7 +52,6 @@ body {
 
 .card {
     margin: 0 auto;
-    border-radius: 20px;
     box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
 }
@@ -63,6 +62,11 @@ body {
 
 .btn-light {
     box-shadow: 2px 2px #bebebe;
+}
+
+.proj-card {
+    background: rgb(5,123,235);
+    background: linear-gradient(90deg, rgba(5,123,235,1) 0%, rgba(28,23,196,0.9598214285714286) 35%, rgba(109,0,255,1) 73%);
 }
 
 .proj-card:hover {
@@ -94,7 +98,7 @@ body {
     border: none;
 }
 
-.fa-html5 {
+.fa-html5, .fa-css3-alt, .fa-js-square, .fa-react, .fa-node-js, .fa-npm {
     color: lightgrey;
 }
 
@@ -102,40 +106,20 @@ body {
     color: orange;
 }
 
-.fa-css3-alt {
-    color: lightgrey;
-}
-
 .fa-css3-alt:hover {
     color: blue;
-}
-
-.fa-js-square {
-    color: lightgrey;
 }
 
 .fa-js-square:hover {
     color: #EFC825;
 }
 
-.fa-react {
-    color: lightgrey;
-}
-
 .fa-react:hover {
     color: #61DAFB;
 }
 
-.fa-node-js {
-    color: lightgrey;
-}
-
 .fa-node-js:hover {
     color: #7FBD01;
-}
-
-.fa-npm {
-    color: lightgrey;
 }
 
 .fa-npm:hover {
@@ -144,8 +128,12 @@ body {
 
 /* Contact Me section */
 .contact-card:hover {
-    box-shadow:  20px 20px 30px blue,
-             -20px -20px 30px lightblue;
+    box-shadow:  20px 20px 60px rgba(0, 0, 253, 0.5),
+             -20px -20px 60px lightblue;
+}
+
+.contact-title {
+    color: black;
 }
 
 /* Footer */
@@ -161,5 +149,5 @@ footer {
 }
 
 .social-icon:hover {
-    color: #FFFF0D;
+    color: #FFC107;
 }
